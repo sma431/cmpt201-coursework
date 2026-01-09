@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+
+  char ch = 'A';
+  char *pLetter = &ch;
+
+  printf("The ch value is: %c", ch);
+  printf("The pLetter value is: %p", pLetter);
+  // printf("The pLetter value is: %c", pLetter);
+
+  return 0;
+}
